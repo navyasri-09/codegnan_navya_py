@@ -72,7 +72,7 @@ elif user_choice== 4:
 else:
     print("Entered Choice is invalid")'''
 
-num=int(input("Enter a number:"))
+
 if num==0:
     print(f"Enterd number {num}is zero(0)")
 elif num>0:
