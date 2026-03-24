@@ -65,7 +65,7 @@ if "python" in str:
 else:
     print("NO")
 
-
+#find out user enterd letter is vowel or not
 user=input("Enter a letter:")
 if user=='a' or user=='e'or user=='i' or user=='o'or user=='u':
     print(f"{user} is a vowel")
