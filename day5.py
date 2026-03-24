@@ -57,15 +57,20 @@ print(str.upper())
 #replace()--used to replace old string with new string
 str="Python Programming"
 print(str.replace("Python","Java"))
-'''
+
 
 str="python is a programming language"
 if "python" in str:
     print("Yes")
 else:
     print("NO")
-
+'''
 #find out user enterd letter is vowel or not
-    
+user=input("Enter a letter:")
+if user=='a' or user=='e'or user=='i' or user=='o'or user=='u':
+    print(f"{user} is a vowel")
+else:
+    print(f"{user} is not a vowel")
+
 
 
